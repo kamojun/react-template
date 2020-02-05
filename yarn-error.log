@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/13.7.0/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js add react react-dom
+
+PATH: 
+  /Users/kamohara_jun/.cargo/bin:/Users/kamohara_jun/.rbenv/shims:/Users/kamohara_jun/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/kamohara_jun/.cargo/bin:/Users/kamohara_jun/.rbenv/shims:/Users/kamohara_jun/.rbenv/bin:/Users/kamohara_jun/Documents/UNIX/Shscript:/Users/kamohara_jun/.local/bin:/Users/kamohara_jun/Documents/UNIX/Shscript:/Users/kamohara_jun/.local/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/kamohara_jun/Documents/projects/react/template/package.json: Unexpected token } in JSON at position 278
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "template",
+    "version": "1.0.0",
+    "description": "react開発のテンプレート",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack-dev-server -d --content-base ./public --open firefox"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
