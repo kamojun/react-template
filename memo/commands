@@ -1,0 +1,6 @@
+yarn init
+git init
+yarn add react react-dom
+yarn add typescript tslint ts-loader @types/react @types/react-dom
+yarn add webpack webpack-cli webpack-dev-server clean-webpack-plugin
+yarn add styled-components
